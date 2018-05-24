@@ -87,9 +87,16 @@ VALID_EVENTS = {
         'title': str,
     },
     'sourcemap.sourcemap_error': {
+<<<<<<< HEAD
        'org_id': int,
        'group': str,
        'error_type': list,
+=======
+       'organization': str,
+       'user': str,
+       'group': str,
+       'type': str,
+>>>>>>> Add sourcemap.sourcemap_error to whitelist
    },
 }
 
